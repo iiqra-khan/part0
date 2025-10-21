@@ -8,7 +8,7 @@ activate server
 server-->browser: status code 302
 deactivate server
 
-broswer->>server: REDIRECT https:// .../notes
+browser->>server: REDIRECT https:// .../notes
 activate server
 server-->browser: reload notes page
 deactivate server
