@@ -1,5 +1,4 @@
 sequenceDiagram
-```mermaid
 participant server
 participant browser
 
@@ -31,4 +30,3 @@ server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
 deactivate server
 
 Note right of browser: The browser executes the callback function that renders the notes
-```
